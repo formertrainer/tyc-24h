@@ -1,0 +1,9 @@
+
+variables can be PascalCase vs camelCase [msft] vs traditionnal_unix_way
+... I tend to like PascalCase better. Note that WC1 (wingleader) uses the unix way.
+
+classes should be prefixed with a c i.e. cBicycle or c_bicycle
+pointers should be prefixed with a p i.e. pBicycle or p_bicycle
+(note that the book uses PascalCase for classes and objects, camelCase for variables)
+references should be prefixed with a r.
+

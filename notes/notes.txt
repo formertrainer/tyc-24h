@@ -1,0 +1,12 @@
+
+++x and x++ are different, ++ is evaluated before = if written before the variable:
+y = x++  // y = (old) x   and  x = x+1
+y = ++x; // y = x+1       and  x = x+1
+
+function overloading / function polymorphism:
+* same function name, different parameters
+* return type can be different as well
+* the return type cannot be the ONLY differenciator (parameters must differ as well)
+
+compile with -std=gnu++14
+
